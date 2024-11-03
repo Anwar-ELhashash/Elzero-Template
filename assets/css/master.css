@@ -602,6 +602,13 @@ header .mgamenu .links li a i {
   gap: 40px;
 }
 
+@media (max-width:767px) {
+  .features .container {
+    grid-template-columns: minmax(200px, 1fr);
+    gap: 40px;
+  }
+}
+
 .features .container .card {
   border: 1px solid #ccc;
   border-radius: 6px;
