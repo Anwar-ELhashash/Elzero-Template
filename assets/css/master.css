@@ -441,6 +441,12 @@ header .mgamenu .links li a i {
   font-size: 20px;
 }
 
+@media (max-width:767px) {
+  .landing .go-down {
+    bottom: 50px;
+  }
+}
+
 .landing .go-down i {
   animation: bouncing 1.5s infinite;
 }
